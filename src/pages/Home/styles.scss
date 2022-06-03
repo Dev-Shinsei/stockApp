@@ -1,0 +1,56 @@
+.data-grid {
+  background-color: white;
+  font-size:2rem;
+  width: 35rem;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  
+}
+
+.btn-edit button{
+  background-color: #80D8FF;
+  border: 0;
+
+  border-radius: 10px;
+
+  font-family: Heebo;
+  font-weight: 700;
+    
+  cursor: pointer;
+
+  padding: .5rem 2.5rem;
+  margin-top: 3rem;
+}
+
+.btn-delete button{
+  background-color: rgb(241, 45, 45);
+  border: 0;
+
+  border-radius: 10px;
+
+  font-family: Heebo;
+  font-weight: 700;
+    
+  cursor: pointer;
+
+  padding: .5rem 2rem;
+  margin-top: 3rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20rem 10rem;
+  gap: 2rem;
+}
